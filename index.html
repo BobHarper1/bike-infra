@@ -35,8 +35,8 @@
 
 	<script>
 // Load Mapbox as tile baselayer
-  var mapbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+  	var mapbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		maxZoom: 18,
 		id: 'mapbox.emerald',
 		accessToken: 'pk.eyJ1IjoiYm9iaGFycGVyIiwiYSI6ImQwOTg1YTg2MTQzYzk3Mzc5MWVjYzFkZDQzN2M1NTUzIn0.mA2WO4WAZzh-qwoqN4QVjg'
@@ -94,26 +94,26 @@
 		}
 	
 	var offsegL = L.geoJson(offseg, {style: off_segregated, 
-	onEachFeature: onEachFeature
+		onEachFeature: onEachFeature
 	});
 	
 	var offshareL = L.geoJson(offshare, {style: off_shared, 
-	onEachFeature: onEachFeature
+		onEachFeature: onEachFeature
 	});
 	
 	var onsegL = L.geoJson(onseg, {style: on_segregated, 
-	onEachFeature: onEachFeature
+		onEachFeature: onEachFeature
 	});
 	
 	var onshareL = L.geoJson(onshare, {style: on_shared, 
-	onEachFeature: onEachFeature
+		onEachFeature: onEachFeature
 	});
 	
 	var buswayL = L.geoJson(busway, {style: busshare, 
-	onEachFeature: onEachFeature
+		onEachFeature: onEachFeature
 	});
   
-    var lanesOverlay = {
+    	var lanesOverlay = {
 		"<img src='images/offseg.png' height=10>Off-road segregated": offsegL,
 		"<img src='images/offshare.png' height=10>Off-road shared": offshareL,
 		"<img src='images/onseg.png' height=10>On-road protected": onsegL,
