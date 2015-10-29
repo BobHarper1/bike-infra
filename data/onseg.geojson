@@ -3,7 +3,7 @@ var onseg =
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2015-10-28T14:33:02Z",
+  "timestamp": "2015-10-29T11:00:02Z",
   "features": [
     {
       "type": "Feature",
@@ -273,80 +273,6 @@ var onseg =
           [
             -5.9103535,
             54.5903376
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/134904228",
-      "properties": {
-        "@id": "way/134904228",
-        "bicycle": "designated",
-        "cycleway": "lane",
-        "cycleway:left": "track",
-        "highway": "trunk",
-        "maxspeed": "50 mph",
-        "name": "Sydenham Bypass",
-        "nat_ref": "T1",
-        "oneway": "yes",
-        "ref": "A2",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8975253,
-            54.6029325
-          ],
-          [
-            -5.8966129,
-            54.6030062
-          ],
-          [
-            -5.8961392,
-            54.6030794
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/136689017",
-      "properties": {
-        "@id": "way/136689017",
-        "bicycle": "designated",
-        "bridge": "yes",
-        "cycleway": "lane",
-        "cycleway:left": "track",
-        "highway": "trunk",
-        "layer": "1",
-        "maxspeed": "50 mph",
-        "name": "Sydenham Bypass",
-        "nat_ref": "T1",
-        "oneway": "yes",
-        "ref": "A2",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8879089,
-            54.6049224
-          ],
-          [
-            -5.8876027,
-            54.6050124
-          ],
-          [
-            -5.8872747,
-            54.6051254
-          ],
-          [
-            -5.8870545,
-            54.605216
           ]
         ]
       }
