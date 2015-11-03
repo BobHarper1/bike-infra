@@ -3,8 +3,39 @@ var busway =
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2015-10-28T15:27:02Z",
+  "timestamp": "2015-11-03T00:14:01Z",
   "features": [
+    {
+      "type": "Feature",
+      "id": "way/26279075",
+      "properties": {
+        "@id": "way/26279075",
+        "cycleway:left": "share_busway",
+        "highway": "trunk",
+        "lanes:psv:forward": "1",
+        "name": "Saintfield Road",
+        "nat_ref": "T2",
+        "oneway": "yes",
+        "ref": "A24"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.909768,
+            54.5619056
+          ],
+          [
+            -5.9098584,
+            54.5623243
+          ],
+          [
+            -5.9099055,
+            54.5624955
+          ]
+        ]
+      }
+    },
     {
       "type": "Feature",
       "id": "way/151558590",
@@ -184,6 +215,46 @@ var busway =
           [
             -5.9212176,
             54.6080993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/377745045",
+      "properties": {
+        "@id": "way/377745045",
+        "cycleway:right": "opposite_share_busway",
+        "highway": "trunk",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "lanes:psv:backward": "1",
+        "name": "Saintfield Road",
+        "nat_ref": "T2",
+        "ref": "A24"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9111304,
+            54.5643729
+          ],
+          [
+            -5.9109914,
+            54.5642253
+          ],
+          [
+            -5.9102275,
+            54.5631454
+          ],
+          [
+            -5.9100902,
+            54.5629215
+          ],
+          [
+            -5.9099055,
+            54.5624955
           ]
         ]
       }

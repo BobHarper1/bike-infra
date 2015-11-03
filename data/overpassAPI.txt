@@ -29,7 +29,7 @@
   way[~"^cycleway.*$"~"lane"]["segregated"!="yes"]({{bbox}});
 
  // special: full-time shared busway and cycleway
-  way["lanes:psv:backward"="1"][~"^cycleway.*$"~"share_busway"]({{bbox}});
+  way[~"^lanes:psv.*$"~"."][~"cycleway"~"share_busway"]({{bbox}});
   way["highway"="service"]["access"="no"]["bicycle"="yes"]({{bbox}});
 
 );
