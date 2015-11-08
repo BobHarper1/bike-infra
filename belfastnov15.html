@@ -16,6 +16,7 @@
 	<script src="data/offseg.geojson" type="text/javascript"></script>
 	<script src="data/offshare.geojson" type="text/javascript"></script>
 	<script src="data/busway.geojson" type="text/javascript"></script>
+	<script src="data/bbnewstations.geojson" type="text/javascript"></script>
 	
  <style>
 	body {
@@ -184,11 +185,17 @@
 		"<p><a href='http://www.belfastbikes.co.uk/en/belfast/'><strong>Visit Belfast Bikes</strong></a></p>").setContent;
 		}
 	});
-  
+	
 	var map = L.map('map', {
 		layers: [mapbox, offsegL, offshareL, onsegL, onshareL, bikestations], 
 		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13}  
 	}).setView([54.6, -5.93],14);
+	
+	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [38, 38]})
+	
+	L.marker([54.6058, -5.911], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "Titanic Quarter");
+	L.marker([54.584, -5.932], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB McClay Library / Botanic Park");
+	L.marker([54.5844, -5.937], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB Student Union");
   
 	L.control.layers(null, lanesOverlay, { 	
 		collapsed: false,
