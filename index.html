@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<title>Belfast Bicycle Infrastructure (October 2015)</title>
+	<title>Belfast Bicycle Infrastructure (November 2015)</title>
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
 	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
@@ -16,6 +16,7 @@
 	<script src="data/offseg.geojson" type="text/javascript"></script>
 	<script src="data/offshare.geojson" type="text/javascript"></script>
 	<script src="data/busway.geojson" type="text/javascript"></script>
+	<script src="data/bbnewstations.geojson" type="text/javascript"></script>
 	
  <style>
 	body {
@@ -184,11 +185,17 @@
 		"<p><a href='http://www.belfastbikes.co.uk/en/belfast/'><strong>Visit Belfast Bikes</strong></a></p>").setContent;
 		}
 	});
-  
+	
 	var map = L.map('map', {
 		layers: [mapbox, offsegL, offshareL, onsegL, onshareL, bikestations], 
 		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13}  
 	}).setView([54.6, -5.93],14);
+	
+	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [45, 45]})
+	
+	L.marker([54.6058, -5.911], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "Titanic Quarter");
+	L.marker([54.584, -5.932], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB McClay Library / Botanic Park");
+	L.marker([54.5844, -5.937], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB Student Union");
   
 	L.control.layers(null, lanesOverlay, { 	
 		collapsed: false,
