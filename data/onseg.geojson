@@ -13,7 +13,8 @@ var onseg =
         "cycleway": "lane",
         "highway": "tertiary",
         "name": "Ormeau Embankment",
-        "segregated": "yes"
+        "segregated": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
@@ -285,7 +286,8 @@ var onseg =
         "cycleway": "lane",
         "highway": "unclassified",
         "name": "Queens Road",
-        "segregated": "yes"
+        "segregated": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
@@ -357,7 +359,8 @@ var onseg =
         "cycleway": "lane",
         "highway": "unclassified",
         "name": "Queens Road",
-        "segregated": "yes"
+        "segregated": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
@@ -369,6 +372,114 @@ var onseg =
           [
             -5.9090606,
             54.6071936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148484389",
+      "properties": {
+        "@id": "way/148484389",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "layer": "-1",
+        "oneway": "yes",
+        "segregated": "yes",
+        "tunnel": "yes",
+        "layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8661892,
+            54.6169216
+          ],
+          [
+            -5.8668004,
+            54.6160587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148484392",
+      "properties": {
+        "@id": "way/148484392",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "oneway": "yes",
+        "segregated": "yes",
+        "layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8660844,
+            54.6171255
+          ],
+          [
+            -5.8661892,
+            54.6169216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148484447",
+      "properties": {
+        "@id": "way/148484447",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "oneway": "yes",
+        "segregated": "yes",
+        "layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8668004,
+            54.6160587
+          ],
+          [
+            -5.8670041,
+            54.6158901
+          ],
+          [
+            -5.867226,
+            54.6157165
+          ],
+          [
+            -5.8675383,
+            54.6155275
+          ],
+          [
+            -5.8678403,
+            54.6153393
+          ],
+          [
+            -5.8681846,
+            54.615081
+          ],
+          [
+            -5.868604,
+            54.6147289
+          ],
+          [
+            -5.8688717,
+            54.6144751
+          ],
+          [
+            -5.8692978,
+            54.6140855
           ]
         ]
       }

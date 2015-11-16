@@ -134,20 +134,17 @@
 	};
 	
 	function onEachFeature(feature, layer) {
-		if (feature.properties.highway == 'path' && feature.properties.segregated == 'yes' || feature.properties.highway == 'footway' && feature.properties.segregated == 'yes' || feature.properties.highway == 'cycleway' && feature.properties.segregated == 'yes' || feature.properties.cycleway == 'track' && feature.properties.segregated == 'yes' || feature.properties['cycleway:left'] == 'track' && feature.properties.segregated == 'yes' || feature.properties['cycleway:right'] == 'track' && feature.properties.segregated == 'yes' || feature.properties.bicycle == 'use_sidepath' && feature.properties.segregated == 'yes') {
+		if (feature.properties.layertype == 'offseg'){
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>off-road segregated cycleway</b>");
 			}
-		if (feature.properties.highway == 'path' && feature.properties.segregated != 'yes' || feature.properties.highway == 'footway' && feature.properties.segregated != 'yes' || feature.properties.highway == 'cycleway' && feature.properties.segregated != 'yes' || feature.properties.cycleway == 'track' && feature.properties.segregated != 'yes' || feature.properties.bicycle == 'use_sidepath' && feature.properties.segregated != 'yes') {
+		if (feature.properties.layertype == 'offshare') {
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>off-road shared path</b>");
 			}
-		if (feature.properties.cycleway == 'lane' && feature.properties.segregated == 'yes' || feature.properties["cycleway:left"] == 'lane' && feature.properties.segregated == 'yes' || feature.properties["cycleway:right"] == 'lane' && feature.properties.segregated == 'yes') {
+		if (feature.properties.layertype == 'onseg') {
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>on-road protected lane</b>");
 			}
-		if (feature.properties.cycleway == 'lane' && feature.properties.segregated != 'yes' || feature.properties["cycleway:left"] == 'lane' && feature.properties.segregated != 'yes' || feature.properties["cycleway:right"] == 'lane' && feature.properties.segregated != 'yes') {
+		if (feature.properties.layertype == 'onshare') {
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>on-road advisory lane</b>");
-			}
-		if (feature.properties.cycleway == 'share_busway' || feature.properties["cycleway:left"] == 'share_busway' || feature.properties["cycleway:right"] == 'share_busway') {
-			layer.bindPopup(feature.properties.name + "<br>This section: <b>full-time shared bus and cycle lane</b>");
 			}
 		}
 	
