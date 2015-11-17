@@ -8,17 +8,20 @@
   way["highway"="footway"]["bicycle"="yes"]["segregated"!="yes"]({{bbox}});
   way["highway"="footway"]["bicycle"="designated"]["segregated"!="yes"]({{bbox}});
   way["highway"="cycleway"]["segregated"!="yes"]({{bbox}});
- // shared off-road cycleways (tracks alongside roads)
+  
+ // shared off-road cycleways (tracks alongside roads and shared footways)
   way[~"^cycleway.*$"~"track"]["segregated"!="yes"]({{bbox}});
   way["bicycle"="use_sidepath"]["segregated"!="yes"]({{bbox}});
+  way["highway"="pedestrian"]["bicycle"="yes"]["area"!="yes"]({{bbox}});
   
- // segregated off-road cycleways (paths)
+ // segregated off-road cycleways (full-blown bike tracks)
   way["highway"="path"]["bicycle"="yes"]["segregated"="yes"]({{bbox}});
   way["highway"="path"]["bicycle"="designated"]["segregated"="yes"]({{bbox}});
   way["highway"="footway"]["bicycle"="yes"]["segregated"="yes"]({{bbox}});
   way["highway"="footway"]["bicycle"="designated"]["segregated"="yes"]({{bbox}});
   way["highway"="cycleway"]["segregated"="yes"]({{bbox}});
- // segregated off-road cycleways (tracks alongside roads)
+  
+ // segregated off-road cycleways (alongside road, separate from motor traffic)
   way[~"^cycleway.*$"~"track"]["segregated"="yes"]({{bbox}});
   way["bicycle"="use_sidepath"]["segregated"="yes"]({{bbox}});
   
