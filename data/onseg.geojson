@@ -494,7 +494,7 @@ var onseg =
         "maxspeed": "20 mph",
         "name": "Castle Street",
         "oneway:bicycle": "yes",
-        "segregated": "yes"
+        "segregated": "yes",
 		"layertype": "onseg"
       },
       "geometry": {

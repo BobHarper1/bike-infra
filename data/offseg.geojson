@@ -423,7 +423,7 @@ var offseg=
         "highway": "path",
         "name": "NCN 93",
         "ncn_ref": "93",
-        "segregated": "yes"
+        "segregated": "yes,
 		"layertype": "offseg"
       },
       "geometry": {
