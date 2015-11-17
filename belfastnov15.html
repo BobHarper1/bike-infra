@@ -180,7 +180,7 @@
 	
 	var proposedOverlay = {
 		"<img src='images/proposed.png' height=10> Proposed additions": proposedL,
-	}
+	};
   
   	var bikestations = L.geoJson(bikestations, {
 	style: stationStyle,
@@ -198,11 +198,13 @@
 		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13}  
 	}).setView([54.6, -5.93],14);
 	
-	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [35, 35]})
+	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [35, 35]});
 	
 	L.marker([54.6058, -5.911], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Titanic Qtr / Queen's Road");
 	L.marker([54.584, -5.932], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / College Park");
 	L.marker([54.5844, -5.937], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / University Road");
+	
+	L.Control
 	
 	var legend = L.control({position: 'bottomleft'});
 	
@@ -210,7 +212,7 @@
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 200, 400, 600, 800, 1000],
 		labels = [];
-		div.innerHTML += '<b>Belfast Bikes: dock locations <br>and August rentals</b><br> <img src="images/newbike.png" height=15> New stations<br>'
+		div.innerHTML += '<b>Belfast Bikes: dock locations <br>and August rental numbers</b><br> <img src="images/newbike.png" height=15> New stations<br>'
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i class="circle" style="background:' + getColor(grades[i] + 1) + '"></i> ' +
