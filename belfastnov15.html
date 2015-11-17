@@ -127,7 +127,7 @@
 	};
 	
 	var proposal = {
-		"color": "#red",
+		"color": "red",
 		"dashArray": "3,10",
 		"weight": 5,
 		"opacity": 0.8
@@ -146,8 +146,8 @@
 		if (feature.properties.layertype == 'onshare') {
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>on-road advisory lane</b>");
 			}
-		if feature.properties.layertype == 'proposed') {
-			layer.bindPopup("Proposed additions to Belfast's cycling infrastructure");
+		if (feature.properties.layertype == 'proposed') {
+			layer.bindPopup("Proposed additions to the city centre network");
 			}
 		}
 	
@@ -167,21 +167,21 @@
 		onEachFeature: onEachFeature
 	});
 	
-	var proposedL = L.geoJson(proposed, {style: proposal, 
+	var proposedL = L.geoJson(proposed, {style: proposal,
 		onEachFeature: onEachFeature
 	});
 	
   
     var lanesOverlay = {
-		"<img src='images/offseg.png' height=10>Off-road segregated": offsegL,
-		"<img src='images/offshare.png' height=10>Off-road shared": offshareL,
-		"<img src='images/onseg.png' height=10>On-road protected": onsegL,
-		"<img src='images/onshare.png' height=10>On-road advisory": onshareL,
+		"<img src='images/offseg.png' height=10> Off-road segregated": offsegL,
+		"<img src='images/offshare.png' height=10> Off-road shared": offshareL,
+		"<img src='images/onseg.png' height=10> On-road protected": onsegL,
+		"<img src='images/onshare.png' height=10> On-road advisory": onshareL,
 	};
 	
 	var proposedOverlay = {
-		"<img src='images/proposed.png' height=10>Proposed additions": proposedL,
-	};
+		"<img src='images/proposed.png' height=10> Proposed additions": proposedL,
+	}
   
   	var bikestations = L.geoJson(bikestations, {
 	style: stationStyle,
@@ -199,13 +199,18 @@
 		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13}  
 	}).setView([54.6, -5.93],14);
 	
-	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [45, 45]})
+	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [35, 35]})
 	
-	L.marker([54.6058, -5.911], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "Titanic Quarter");
-	L.marker([54.584, -5.932], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB McClay Library / Botanic Park");
-	L.marker([54.5844, -5.937], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB Student Union");
+	L.marker([54.6058, -5.911], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Titanic Quarter");
+	L.marker([54.584, -5.932], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queens / College Park");
+	L.marker([54.5844, -5.937], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queens / University Road");
   
-	L.control.layers(null, lanesOverlay, proposedOverlay { 	
+	L.control.layers(null, lanesOverlay, { 	
+		collapsed: false,
+		position: 'bottomleft'
+	}).addTo(map);
+	
+	L.control.layers(null, proposedOverlay, { 	
 		collapsed: false,
 		position: 'bottomleft'
 	}).addTo(map);

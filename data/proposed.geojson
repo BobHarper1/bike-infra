@@ -9,7 +9,7 @@ var proposed=
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "proposed infrastructure additions",
-		"layertype": "proposed",
+        "layertype": "proposed"
       },
       "geometry": {
         "type": "LineString",
@@ -140,7 +140,7 @@ var proposed=
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "proposed infrastructure additions",
-		"layertype": "proposed"
+        "layertype": "proposed"
       },
       "geometry": {
         "type": "LineString",
@@ -163,7 +163,7 @@ var proposed=
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "proposed infrastructure additions",
-		"layertype": "proposed"
+        "layertype": "proposed"
       },
       "geometry": {
         "type": "LineString",
