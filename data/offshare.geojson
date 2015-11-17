@@ -49,48 +49,6 @@ var offshare =
     },
     {
       "type": "Feature",
-      "id": "way/10024924",
-      "properties": {
-        "@id": "way/10024924",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "pedestrian",
-        "name": "Queen's Square",
-        "psv": "yes",
-        "layertype": ""
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9245634,
-            54.6007029
-          ],
-          [
-            -5.9241719,
-            54.6007892
-          ],
-          [
-            -5.9237997,
-            54.6008783
-          ],
-          [
-            -5.9233312,
-            54.6009712
-          ],
-          [
-            -5.9227252,
-            54.601086
-          ],
-          [
-            -5.9222408,
-            54.6011539
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/10287503",
       "properties": {
         "@id": "way/10287503",
