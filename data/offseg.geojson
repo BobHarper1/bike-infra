@@ -414,32 +414,17 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/75405824",
       "properties": {
         "@id": "way/75405824",
-        "bicycle": "designated",
-        "cycleway_l": null,
-        "highway": "path",
-        "maxspeed": null,
-        "name": "NCN 93",
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": "designated",
-        "ncn_ref": "93",
         "FIXME": "Needs to be adjusted to fit the new, more accurate geometry of the road alongside",
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "name": "NCN 93",
+        "ncn_ref": "93",
+        "segregated": "yes"
+		"layertype": "offseg"
       },
       "geometry": {
         "type": "LineString",
@@ -497,108 +482,12 @@ var offseg=
             54.6035624
           ],
           [
-            -5.9208225,
-            54.6046252
+            -5.9209014,
+            54.6045206
           ],
           [
-            -5.9208818,
-            54.6047151
-          ],
-          [
-            -5.9210937,
-            54.6047832
-          ],
-          [
-            -5.9211742,
-            54.6048715
-          ],
-          [
-            -5.9207292,
-            54.605487
-          ],
-          [
-            -5.9207316,
-            54.6055505
-          ],
-          [
-            -5.9215695,
-            54.6057852
-          ],
-          [
-            -5.9215845,
-            54.6059761
-          ],
-          [
-            -5.9214503,
-            54.6064198
-          ],
-          [
-            -5.9211917,
-            54.6067914
-          ],
-          [
-            -5.9209273,
-            54.6069052
-          ],
-          [
-            -5.9206726,
-            54.606868
-          ],
-          [
-            -5.9198793,
-            54.6066574
-          ],
-          [
-            -5.9195079,
-            54.6067532
-          ],
-          [
-            -5.9189906,
-            54.6071375
-          ],
-          [
-            -5.9188851,
-            54.6071732
-          ],
-          [
-            -5.9187253,
-            54.6071635
-          ],
-          [
-            -5.918605,
-            54.6071245
-          ],
-          [
-            -5.9184542,
-            54.6070678
-          ],
-          [
-            -5.9183169,
-            54.6070162
-          ],
-          [
-            -5.9180672,
-            54.6069063
-          ],
-          [
-            -5.917935,
-            54.6069671
-          ],
-          [
-            -5.9175947,
-            54.607198
-          ],
-          [
-            -5.9176494,
-            54.6073555
-          ],
-          [
-            -5.9176744,
-            54.6074277
-          ],
-          [
-            -5.9178818,
-            54.6075457
+            -5.9212069,
+            54.6046886
           ]
         ]
       }
@@ -2094,53 +1983,6 @@ var offseg=
           [
             -5.9238772,
             54.5968588
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/374528662",
-        "bicycle": "yes",
-        "cycleway_l": null,
-        "highway": "cycleway",
-        "maxspeed": null,
-        "name": "Castle Street",
-        "nat_ref": null,
-        "oneway": "yes",
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": "asphalt",
-        "access": "no",
-        "horse": "no",
-        "motor_vehi": "no",
-        "width": "1",
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9346792,
-            54.5993086
-          ],
-          [
-            -5.9340104,
-            54.5992709
-          ],
-          [
-            -5.933051,
-            54.5992398
           ]
         ]
       }

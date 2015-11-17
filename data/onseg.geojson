@@ -483,6 +483,49 @@ var onseg =
           ]
         ]
       }
+    },
+	 {
+      "type": "Feature",
+      "id": "way/380860676",
+      "properties": {
+        "@id": "way/380860676",
+        "cycleway:right": "lane",
+        "highway": "unclassified",
+        "maxspeed": "20 mph",
+        "name": "Castle Street",
+        "oneway:bicycle": "yes",
+        "segregated": "yes"
+		"layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9330533,
+            54.5992127
+          ],
+          [
+            -5.9333016,
+            54.5992251
+          ],
+          [
+            -5.9335972,
+            54.5992354
+          ],
+          [
+            -5.9338887,
+            54.5992412
+          ],
+          [
+            -5.9340174,
+            54.5992505
+          ],
+          [
+            -5.9346638,
+            54.5992816
+          ]
+        ]
+      }
     }
   ]
 }
