@@ -33,7 +33,7 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
 	}
-		
+	
 	.info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
@@ -172,10 +172,10 @@
 	
   
     var lanesOverlay = {
-		"<img src='images/offseg.png' height=10> Off-road segregated paths": offsegL,
-		"<img src='images/offshare.png' height=10> Off-road shared paths": offshareL,
-		"<img src='images/onseg.png' height=10> On-road protected lanes": onsegL,
-		"<img src='images/onshare.png' height=10> On-road advisory lanes": onshareL,
+		"<img src='images/offseg.png' height=10> Off-road segregated": offsegL,
+		"<img src='images/offshare.png' height=10> Off-road shared": offshareL,
+		"<img src='images/onseg.png' height=10> On-road protected": onsegL,
+		"<img src='images/onshare.png' height=10> On-road advisory": onshareL,
 	};
 	
 	var proposedOverlay = {
@@ -200,37 +200,35 @@
 	
 	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [35, 35]})
 	
-	L.marker([54.6058, -5.911], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Titanic Qtr / Queen's Road");
-	L.marker([54.584, -5.932], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / College Park");
-	L.marker([54.5844, -5.937], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / University Road");
+	L.marker([54.6058, -5.911], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Titanic Quarter");
+	L.marker([54.584, -5.932], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queens / College Park");
+	L.marker([54.5844, -5.937], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queens / University Road");
+  
+	L.control.layers(null, lanesOverlay, { 	
+		collapsed: false,
+		position: 'bottomleft'
+	}).addTo(map);
 	
 	L.control.layers(null, proposedOverlay, { 	
 		collapsed: false,
 		position: 'bottomleft'
-	}).addTo(map);	
-	
-	L.control.layers(null, lanesOverlay, { 	
-		collapsed: false,
-		position: 'bottomleft',
 	}).addTo(map);
-		
-	var legend = L.control({position: 'bottomleft'});
 	
+	var legend = L.control({position: 'bottomleft'});
 	legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 200, 400, 600, 800, 1000],
 		labels = [];
-		div.innerHTML += '<b>Belfast Bikes docks: <br>August rentals</b><br> <img src="images/newbike.png" height=15> New stations<br>'
+		div.innerHTML += '<b>Belfast Bikes Docks <br>Usage Indicators</b><br>'
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i class="circle" style="background:' + getColor(grades[i] + 1) + '"></i> ' +
             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-		}
+    }
     return div;
 	};
-	
 	legend.addTo(map);
-	
+  
 </script>  
 
 </body>
