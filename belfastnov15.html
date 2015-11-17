@@ -15,7 +15,7 @@
 	<script src="data/onshare.geojson" type="text/javascript"></script>
 	<script src="data/offseg.geojson" type="text/javascript"></script>
 	<script src="data/offshare.geojson" type="text/javascript"></script>
-	<script src="data/busway.geojson" type="text/javascript"></script>
+	<script src="data/proposed.geojson" type="text/javascript"></script>
 	<script src="data/bbnewstations.geojson" type="text/javascript"></script>
 	
  <style>
@@ -126,8 +126,8 @@
 		"opacity": 0.8
 	};
 	
-	var busshare = {
-		"color": "#FF0066",
+	var proposal = {
+		"color": "#red",
 		"dashArray": "3,10",
 		"weight": 5,
 		"opacity": 0.8
@@ -145,6 +145,9 @@
 			}
 		if (feature.properties.layertype == 'onshare') {
 			layer.bindPopup(feature.properties.name + "<br>This section: <b>on-road advisory lane</b>");
+			}
+		if feature.properties.layertype == 'proposed') {
+			layer.bindPopup("Proposed additions to Belfast's cycling infrastructure");
 			}
 		}
 	
@@ -164,12 +167,20 @@
 		onEachFeature: onEachFeature
 	});
 	
+	var proposedL = L.geoJson(proposed, {style: proposal, 
+		onEachFeature: onEachFeature
+	});
+	
   
     var lanesOverlay = {
 		"<img src='images/offseg.png' height=10>Off-road segregated": offsegL,
 		"<img src='images/offshare.png' height=10>Off-road shared": offshareL,
 		"<img src='images/onseg.png' height=10>On-road protected": onsegL,
 		"<img src='images/onshare.png' height=10>On-road advisory": onshareL,
+	};
+	
+	var proposedOverlay = {
+		"<img src='images/proposed.png' height=10>Proposed additions": proposedL,
 	};
   
   	var bikestations = L.geoJson(bikestations, {
@@ -194,17 +205,17 @@
 	L.marker([54.584, -5.932], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB McClay Library / Botanic Park");
 	L.marker([54.5844, -5.937], {icon: bikeIcon}).addTo(map).bindPopup("New Belfast Bikes station".bold() + "<br>" + "QUB Student Union");
   
-	L.control.layers(null, lanesOverlay, { 	
+	L.control.layers(null, lanesOverlay, proposedOverlay { 	
 		collapsed: false,
 		position: 'bottomleft'
 	}).addTo(map);
 	
-	var legend = L.control({position: 'topright'});
+	var legend = L.control({position: 'bottomleft'});
 	legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 200, 400, 600, 800, 1000],
 		labels = [];
-		div.innerHTML += '<b>Belfast Bikes Usage</b><br>'
+		div.innerHTML += '<b>Belfast Bikes Docks <br>Usage Indicators</b><br>'
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i class="circle" style="background:' + getColor(grades[i] + 1) + '"></i> ' +
