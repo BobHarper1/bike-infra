@@ -9,6 +9,7 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
 	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
 	<link rel="stylesheet" href="css/Leaflet.EditInOSM.css" />
+	<link rel="stylesheet" href="css/bikemap.css" />
 	<script src="src/Leaflet.EditInOSM.js"></script>
 	<script src="data/belfastbikes.geojson" type="text/javascript"></script>
 	<script src="data/onseg.geojson" type="text/javascript"></script>
@@ -25,44 +26,7 @@
 	html, body, #map {
 		height: 100%;
 	}
-	
-	.leaflet-control{ 
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-	}
 		
-	.info {
-    padding: 6px 8px;
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-	}
-	
-	.info h4 {
-    margin: 0 0 5px;
-    color: #777;
-	}
-	
-	.legend .circle {
-	border-radius: 50%;
-	width: 12px;
-	height: 12px;
-    line-height: 18px;
-	}
-	
-	.legend i {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.7;
-	}
-	
 </style>
 
 </head>
@@ -90,6 +54,7 @@
         fillOpacity: 0.7
 		};
 	}
+	
 	
 // Load Mapbox as tile baselayer
   	var mapbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -195,7 +160,8 @@
 	
 	var map = L.map('map', {
 		layers: [mapbox, offsegL, offshareL, onsegL, onshareL, bikestations], 
-		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13}  
+		editInOSMControlOptions: {position: "bottomright", zoomThreshold: 13},
+		zoomControl: false
 	}).setView([54.6, -5.93],14);
 	
 	var bikeIcon = L.icon({iconUrl: 'images/newbike.png', iconSize: [35, 35]});
@@ -203,8 +169,6 @@
 	L.marker([54.6058, -5.911], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Titanic Qtr / Queen's Road");
 	L.marker([54.584, -5.932], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / College Park");
 	L.marker([54.5844, -5.937], {icon: bikeIcon, opacity: 0.7}).addTo(map).bindPopup("New Belfast Bikes dock".bold() + "<br>" + "Queen's / University Road");
-	
-	L.Control
 	
 	var legend = L.control({position: 'bottomleft'});
 	
@@ -232,6 +196,28 @@
 		collapsed: false,
 		position: 'bottomleft',
 	}).addTo(map);
+	
+	var title = new (L.Control.extend({
+						options: { position: 'topleft' }
+					}));
+				
+	title.onAdd = function (map) {
+					this._div = L.DomUtil.create('div', 'my-custom-control'); 
+					this.update();
+					return this._div;
+					};
+			  
+	title.update = function (html) {
+					this._div.innerHTML = html;
+					};
+
+	title.addTo(map);
+
+
+	var titlehtml = "Belfast's cycle lane infrastructure";
+	title.update(titlehtml);
+	
+	L.control.zoom({position: 'topleft'}).addTo(map);
 	
 </script>  
 
