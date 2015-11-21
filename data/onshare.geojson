@@ -8,30 +8,15 @@ var onshare =
     }
   },
   "features": [
-    {
+        {
       "type": "Feature",
+      "id": "way/8515976",
       "properties": {
         "@id": "way/8515976",
-        "cycleway_r": "opposite_lane",
+        "cycleway:right": "opposite_lane",
         "highway": "residential",
         "name": "University Square",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -53,28 +38,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/9507181",
       "properties": {
         "@id": "way/9507181",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "primary",
-        "name": "Castlereagh Road",
-        "oneway": null,
-        "cycleway_l": "lane",
         "maxspeed": "30",
-        "ref": "A23",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Castlereagh Road",
+        "ref": "A23"
       },
       "geometry": {
         "type": "LineString",
@@ -116,28 +87,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/9507573",
       "properties": {
         "@id": "way/9507573",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Cregagh Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "tertiary",
+        "name": "Cregagh Road"
       },
       "geometry": {
         "type": "LineString",
@@ -203,28 +158,15 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/9508001",
       "properties": {
         "@id": "way/9508001",
-        "cycleway_r": "lane",
-        "highway": "tertiary",
-        "name": "Woodstock Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
-        "maxspeed": "30 mph",
-        "ref": null,
-        "cycleway": null,
         "alt_name": "Woodstock Link",
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "30 mph",
+        "name": "Woodstock Road"
       },
       "geometry": {
         "type": "LineString",
@@ -322,28 +264,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/9510421",
       "properties": {
         "@id": "way/9510421",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Grand Parade",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "tertiary",
+        "name": "Grand Parade"
       },
       "geometry": {
         "type": "LineString",
@@ -425,75 +351,12 @@ var onshare =
     },
     {
       "type": "Feature",
-      "properties": {
-        "@id": "way/10288384",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Annadale Embankment",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9298912,
-            54.5756118
-          ],
-          [
-            -5.9301618,
-            54.5751902
-          ],
-          [
-            -5.9302581,
-            54.5751386
-          ],
-          [
-            -5.9303854,
-            54.5750982
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
+      "id": "way/10396962",
       "properties": {
         "@id": "way/10396962",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "secondary",
-        "name": "Springfield Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Springfield Road"
       },
       "geometry": {
         "type": "LineString",
@@ -523,28 +386,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/10398794",
       "properties": {
         "@id": "way/10398794",
-        "cycleway_r": null,
-        "highway": "trunk_link",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
         "lanes": "1",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -570,123 +421,14 @@ var onshare =
     },
     {
       "type": "Feature",
-      "properties": {
-        "@id": "way/17362280",
-        "cycleway_r": null,
-        "highway": "primary",
-        "name": "Ballysillan Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "A55",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.947548,
-            54.6333772
-          ],
-          [
-            -5.948419,
-            54.6332561
-          ],
-          [
-            -5.9491506,
-            54.6331269
-          ],
-          [
-            -5.9504443,
-            54.6329312
-          ],
-          [
-            -5.9516847,
-            54.6327363
-          ],
-          [
-            -5.951939,
-            54.6326907
-          ],
-          [
-            -5.9527056,
-            54.6325756
-          ],
-          [
-            -5.9537628,
-            54.632383
-          ],
-          [
-            -5.9551411,
-            54.6322039
-          ],
-          [
-            -5.9561396,
-            54.6321053
-          ],
-          [
-            -5.9573307,
-            54.6319945
-          ],
-          [
-            -5.9581395,
-            54.6318888
-          ],
-          [
-            -5.958726,
-            54.6317829
-          ],
-          [
-            -5.9593073,
-            54.6316234
-          ],
-          [
-            -5.9601052,
-            54.631331
-          ],
-          [
-            -5.9606404,
-            54.631096
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
+      "id": "way/26191958",
       "properties": {
         "@id": "way/26191958",
-        "cycleway_r": "lane",
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Cregagh Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
         "maxspeed": "30 mph",
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Cregagh Road"
       },
       "geometry": {
         "type": "LineString",
@@ -768,28 +510,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/26345640",
       "properties": {
         "@id": "way/26345640",
-        "cycleway_r": null,
-        "highway": "service",
-        "name": null,
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": "99",
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "service",
+        "ncn_ref": "99"
       },
       "geometry": {
         "type": "LineString",
@@ -831,28 +557,18 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/32425584",
       "properties": {
         "@id": "way/32425584",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
-        "nat_ref": "T1",
-        "ncn_ref": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
         "lit": "yes",
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
+        "nat_ref": "T1",
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -902,28 +618,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/38541041",
       "properties": {
         "@id": "way/38541041",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
         "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -945,28 +649,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/38548676",
       "properties": {
         "@id": "way/38548676",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "40 mph",
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -996,28 +689,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/38548679",
       "properties": {
         "@id": "way/38548679",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
         "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -1055,28 +736,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/38548680",
       "properties": {
         "@id": "way/38548680",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "40 mph",
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -1106,28 +776,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/38548685",
       "properties": {
         "@id": "way/38548685",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
         "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -1281,28 +939,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/39185333",
       "properties": {
         "@id": "way/39185333",
-        "cycleway_r": "opposite_lane",
+        "cycleway:right": "opposite_lane",
         "highway": "unclassified",
         "name": "Amelia Street",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1336,28 +979,15 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/40063185",
       "properties": {
         "@id": "way/40063185",
-        "cycleway_r": "share_busway",
+        "cycleway:left": "lane",
+        "cycleway:right": "share_busway",
         "highway": "secondary",
-        "name": "Shankill Road",
-        "oneway": null,
-        "cycleway_l": "lane",
         "maxspeed": "30 mph",
-        "ref": "B39",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Shankill Road",
+        "ref": "B39"
       },
       "geometry": {
         "type": "LineString",
@@ -1483,163 +1113,12 @@ var onshare =
     },
     {
       "type": "Feature",
-      "properties": {
-        "@id": "way/40130751",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Annadale Embankment",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9280237,
-            54.576915
-          ],
-          [
-            -5.927516,
-            54.5771929
-          ],
-          [
-            -5.9272846,
-            54.5774192
-          ],
-          [
-            -5.9271396,
-            54.5776238
-          ],
-          [
-            -5.9270485,
-            54.5778433
-          ],
-          [
-            -5.926997,
-            54.578056
-          ],
-          [
-            -5.927004,
-            54.5782674
-          ],
-          [
-            -5.9270695,
-            54.5785031
-          ],
-          [
-            -5.9271817,
-            54.5787958
-          ],
-          [
-            -5.9273056,
-            54.579106
-          ],
-          [
-            -5.9273664,
-            54.5793607
-          ],
-          [
-            -5.9273781,
-            54.5795599
-          ],
-          [
-            -5.9273337,
-            54.5797469
-          ],
-          [
-            -5.9272565,
-            54.5799636
-          ],
-          [
-            -5.927149,
-            54.5801235
-          ],
-          [
-            -5.9269503,
-            54.5803457
-          ],
-          [
-            -5.9267516,
-            54.5805069
-          ],
-          [
-            -5.9264243,
-            54.5807237
-          ],
-          [
-            -5.9261268,
-            54.5808906
-          ],
-          [
-            -5.9254846,
-            54.5812453
-          ],
-          [
-            -5.9249001,
-            54.5815453
-          ],
-          [
-            -5.9241001,
-            54.5818485
-          ],
-          [
-            -5.9227821,
-            54.5822794
-          ],
-          [
-            -5.9224814,
-            54.5823523
-          ],
-          [
-            -5.9220263,
-            54.5824193
-          ],
-          [
-            -5.9217398,
-            54.5824391
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
+      "id": "way/40426124",
       "properties": {
         "@id": "way/40426124",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "East Bridge Street",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "East Bridge Street"
       },
       "geometry": {
         "type": "LineString",
@@ -1665,28 +1144,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/59831550",
       "properties": {
         "@id": "way/59831550",
-        "cycleway_r": null,
+        "cycleway": "lane",
         "highway": "unclassified",
         "name": "Queen's Quay",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
         "ncn_ref": "99",
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1712,28 +1177,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/75405820",
       "properties": {
         "@id": "way/75405820",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Holywood Bypass",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": "60 mph",
-        "ref": "A2",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
+        "highway": "trunk",
+        "maxspeed": "60 mph",
+        "name": "Holywood Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -1803,28 +1256,18 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/75405821",
       "properties": {
         "@id": "way/75405821",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": "lane",
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -1846,28 +1289,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/131255096",
       "properties": {
         "@id": "way/131255096",
-        "cycleway_r": null,
+        "cycleway": "lane",
         "highway": "secondary",
         "name": "Ravenhill Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "B506",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "B506"
       },
       "geometry": {
         "type": "LineString",
@@ -2045,28 +1473,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/133143091",
       "properties": {
         "@id": "way/133143091",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "trunk",
         "name": "Springfield Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -2104,28 +1517,20 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/133262236",
       "properties": {
         "@id": "way/133262236",
-        "cycleway_r": "opposite_lane",
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "cycleway:right": "opposite_lane",
         "highway": "trunk",
+        "maxspeed": "30 mph",
+        "motor_vehicle": "yes",
         "name": "Great Victoria Street",
         "oneway": "no",
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
         "ref": "A1",
-        "cycleway": "no",
-        "alt_name": null,
-        "bicycle": "yes",
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": "yes",
-        "motor_vehi": "yes",
-        "surface": "asphalt",
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -2143,28 +1548,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/134743902",
       "properties": {
         "@id": "way/134743902",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -2254,28 +1648,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/134904227",
       "properties": {
         "@id": "way/134904227",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -2301,28 +1684,18 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/136688983",
       "properties": {
         "@id": "way/136688983",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": "lane",
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -2436,28 +1809,18 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/136689145",
       "properties": {
         "@id": "way/136689145",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": "lane",
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -2491,28 +1854,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/143930025",
       "properties": {
         "@id": "way/143930025",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "tertiary",
-        "name": "East Bridge Street",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "East Bridge Street"
       },
       "geometry": {
         "type": "LineString",
@@ -2534,28 +1881,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/143930425",
       "properties": {
         "@id": "way/143930425",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "tertiary",
         "name": "East Bridge Street",
         "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A20",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A20"
       },
       "geometry": {
         "type": "LineString",
@@ -2581,28 +1914,15 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/151558584",
       "properties": {
         "@id": "way/151558584",
-        "cycleway_r": null,
-        "highway": "trunk_link",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
         "lanes": "2",
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -2656,28 +1976,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/209319081",
       "properties": {
         "@id": "way/209319081",
-        "cycleway_r": null,
-        "highway": "trunk_link",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "yes",
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -2703,28 +2008,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/244271651",
       "properties": {
         "@id": "way/244271651",
-        "cycleway_r": "lane",
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Albertbridge Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Albertbridge Road"
       },
       "geometry": {
         "type": "LineString",
@@ -2782,28 +2072,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/244272157",
       "properties": {
         "@id": "way/244272157",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "tertiary_link",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -2829,28 +2103,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/300399639",
       "properties": {
         "@id": "way/300399639",
-        "cycleway_r": null,
+        "cycleway": "lane",
         "highway": "secondary",
         "name": "Beersbridge Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "B505",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "B505"
       },
       "geometry": {
         "type": "LineString",
@@ -2918,11 +2177,11 @@ var onshare =
         ]
       }
     },
-	{
+    {
       "type": "Feature",
-      "id": "way/381454746",
+      "id": "way/301778252",
       "properties": {
-        "@id": "way/381454746",
+        "@id": "way/301778252",
         "cycleway:left": "lane",
         "highway": "trunk",
         "name": "Oxford Street",
@@ -2932,6 +2191,10 @@ var onshare =
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            -5.9217135,
+            54.5994242
+          ],
           [
             -5.9215241,
             54.5976279
@@ -2949,28 +2212,53 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/301778254",
+      "properties": {
+        "@id": "way/301778254",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "name": "Oxford Street",
+        "oneway": "yes",
+        "ref": "A20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9213345,
+            54.5964805
+          ],
+          [
+            -5.9213117,
+            54.5963422
+          ],
+          [
+            -5.9212671,
+            54.5958691
+          ],
+          [
+            -5.9213376,
+            54.5956127
+          ],
+          [
+            -5.9213825,
+            54.5954494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/301784437",
       "properties": {
         "@id": "way/301784437",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Newtownards Road",
-        "oneway": "no",
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
-        "ref": "A20",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
+        "highway": "trunk",
+        "maxspeed": "30 mph",
+        "name": "Newtownards Road",
         "nat_ref": "T11",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "no",
+        "ref": "A20"
       },
       "geometry": {
         "type": "LineString",
@@ -3088,28 +2376,85 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/304400425",
+      "properties": {
+        "@id": "way/304400425",
+        "cycleway": "lane",
+        "highway": "trunk",
+        "maxspeed": "40 mph",
+        "name": "Holywood Bypass",
+        "nat_ref": "T1",
+        "oneway": "yes",
+        "ref": "A2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8421604,
+            54.6386657
+          ],
+          [
+            -5.8414468,
+            54.63928
+          ],
+          [
+            -5.8404891,
+            54.6400138
+          ],
+          [
+            -5.8394322,
+            54.6407745
+          ],
+          [
+            -5.8384976,
+            54.6414345
+          ],
+          [
+            -5.83787,
+            54.6418889
+          ],
+          [
+            -5.8376792,
+            54.6420164
+          ],
+          [
+            -5.8373837,
+            54.6421534
+          ],
+          [
+            -5.8368836,
+            54.6423863
+          ],
+          [
+            -5.8366145,
+            54.6425127
+          ],
+          [
+            -5.8363937,
+            54.6426538
+          ],
+          [
+            -5.8363336,
+            54.6427085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/304514727",
       "properties": {
         "@id": "way/304514727",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "60 mph",
-        "ref": "A2",
-        "cycleway": "lane",
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "60 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -3127,28 +2472,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/362073429",
       "properties": {
         "@id": "way/362073429",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "unclassified",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -3178,28 +2507,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/366111971",
       "properties": {
         "@id": "way/366111971",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "trunk",
-        "name": null,
-        "oneway": "yes",
-        "cycleway_l": "lane",
         "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -3285,103 +2600,18 @@ var onshare =
     },
     {
       "type": "Feature",
-      "properties": {
-        "@id": "way/367619592",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Annadale Embankment",
-        "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9280237,
-            54.576915
-          ],
-          [
-            -5.9285475,
-            54.5766693
-          ],
-          [
-            -5.9291092,
-            54.5763873
-          ],
-          [
-            -5.9293454,
-            54.5762349
-          ],
-          [
-            -5.9294888,
-            54.5761226
-          ],
-          [
-            -5.9296853,
-            54.5759441
-          ],
-          [
-            -5.9298313,
-            54.5757364
-          ],
-          [
-            -5.9298912,
-            54.5756118
-          ],
-          [
-            -5.9299104,
-            54.5753333
-          ],
-          [
-            -5.929903,
-            54.5751208
-          ],
-          [
-            -5.9298575,
-            54.5747698
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
+      "id": "way/374712138",
       "properties": {
         "@id": "way/374712138",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "40 mph",
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": "left",
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55",
+        "sidewalk": "left"
       },
       "geometry": {
         "type": "LineString",
@@ -3439,28 +2669,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/374756838",
       "properties": {
         "@id": "way/374756838",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -3494,99 +2713,12 @@ var onshare =
     },
     {
       "type": "Feature",
-      "properties": {
-        "@id": "way/375409595",
-        "cycleway_r": null,
-        "highway": "secondary",
-        "name": "Ravenhill Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "B506",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": "no",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9103535,
-            54.5903376
-          ],
-          [
-            -5.9102951,
-            54.5906641
-          ],
-          [
-            -5.9102571,
-            54.5908726
-          ],
-          [
-            -5.9102293,
-            54.5909985
-          ],
-          [
-            -5.9102487,
-            54.5912004
-          ],
-          [
-            -5.9102839,
-            54.5913629
-          ],
-          [
-            -5.9103495,
-            54.5915759
-          ],
-          [
-            -5.9104281,
-            54.591756
-          ],
-          [
-            -5.9104685,
-            54.5918403
-          ],
-          [
-            -5.9105016,
-            54.5919169
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
+      "id": "way/375409596",
       "properties": {
         "@id": "way/375409596",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Albertbridge Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Albertbridge Road"
       },
       "geometry": {
         "type": "LineString",
@@ -3604,28 +2736,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409597",
       "properties": {
         "@id": "way/375409597",
-        "cycleway_r": "lane",
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Albertbridge Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Albertbridge Road"
       },
       "geometry": {
         "type": "LineString",
@@ -3651,28 +2768,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409599",
       "properties": {
         "@id": "way/375409599",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Albertbridge Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Albertbridge Road"
       },
       "geometry": {
         "type": "LineString",
@@ -3690,28 +2791,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409601",
       "properties": {
         "@id": "way/375409601",
-        "cycleway_r": "lane",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Albertbridge Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Albertbridge Road"
       },
       "geometry": {
         "type": "LineString",
@@ -3729,28 +2814,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409610",
       "properties": {
         "@id": "way/375409610",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -3792,28 +2866,18 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409611",
       "properties": {
         "@id": "way/375409611",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Sydenham Bypass",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "50 mph",
-        "ref": "A2",
-        "cycleway": "lane",
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway": "lane",
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "50 mph",
+        "name": "Sydenham Bypass",
         "nat_ref": "T1",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A2"
       },
       "geometry": {
         "type": "LineString",
@@ -3847,28 +2911,15 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375409613",
       "properties": {
         "@id": "way/375409613",
-        "cycleway_r": "lane",
+        "cycleway:left": "track",
+        "cycleway:right": "lane",
         "highway": "unclassified",
         "name": "Sydenham Road",
         "oneway": "no",
-        "cycleway_l": "track",
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": "asphalt",
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -3890,28 +2941,17 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501368",
       "properties": {
         "@id": "way/375501368",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Upper Knockbreda Road",
-        "oneway": "yes",
-        "cycleway_l": "lane",
-        "maxspeed": "40 mph",
-        "ref": "A55",
-        "cycleway": null,
-        "alt_name": null,
         "bicycle": "designated",
-        "lanes": null,
+        "cycleway:left": "lane",
+        "highway": "trunk",
+        "maxspeed": "40 mph",
+        "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "oneway": "yes",
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -3937,28 +2977,16 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501374",
       "properties": {
         "@id": "way/375501374",
-        "cycleway_r": null,
-        "highway": "trunk",
-        "name": "Crumlin Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
-        "ref": "A52",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
+        "highway": "trunk",
         "lanes": "2",
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": "asphalt",
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "maxspeed": "30 mph",
+        "name": "Crumlin Road",
+        "ref": "A52",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -4008,28 +3036,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501375",
       "properties": {
         "@id": "way/375501375",
-        "cycleway_r": "share_busway",
+        "cycleway:left": "lane",
+        "cycleway:right": "share_busway",
         "highway": "trunk",
         "name": "Crumlin Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A52",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A52"
       },
       "geometry": {
         "type": "LineString",
@@ -4119,28 +3133,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501376",
       "properties": {
         "@id": "way/375501376",
-        "cycleway_r": null,
+        "cycleway:left": "lane",
         "highway": "trunk",
         "name": "Crumlin Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A52",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A52"
       },
       "geometry": {
         "type": "LineString",
@@ -4166,28 +3165,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501377",
       "properties": {
         "@id": "way/375501377",
-        "cycleway_r": "share_busway",
+        "cycleway:left": "lane",
+        "cycleway:right": "share_busway",
         "highway": "trunk",
         "name": "Crumlin Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A52",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A52"
       },
       "geometry": {
         "type": "LineString",
@@ -4229,28 +3214,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375501379",
       "properties": {
         "@id": "way/375501379",
-        "cycleway_r": "share_busway",
+        "cycleway:left": "lane",
+        "cycleway:right": "share_busway",
         "highway": "trunk",
         "name": "Crumlin Road",
-        "oneway": null,
-        "cycleway_l": "lane",
-        "maxspeed": null,
-        "ref": "A52",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A52"
       },
       "geometry": {
         "type": "LineString",
@@ -4280,28 +3251,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375899544",
       "properties": {
         "@id": "way/375899544",
-        "cycleway_r": null,
-        "highway": "secondary",
-        "name": "Springfield Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "secondary",
+        "name": "Springfield Road"
       },
       "geometry": {
         "type": "LineString",
@@ -4519,28 +3474,13 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375899545",
       "properties": {
         "@id": "way/375899545",
-        "cycleway_r": null,
+        "cycleway": "lane",
         "highway": "trunk",
         "name": "Springfield Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "A55",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "A55"
       },
       "geometry": {
         "type": "LineString",
@@ -4650,28 +3590,19 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375899547",
       "properties": {
         "@id": "way/375899547",
-        "cycleway_r": "opposite_lane",
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "cycleway:right": "opposite_lane",
         "highway": "unclassified",
+        "maxspeed": "30 mph",
+        "motor_vehicle": "yes",
         "name": "Glengall Street",
         "oneway": "yes",
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
-        "ref": null,
-        "cycleway": "no",
-        "alt_name": null,
-        "bicycle": "yes",
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": "yes",
-        "motor_vehi": "yes",
-        "surface": "asphalt",
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -4693,28 +3624,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375921314",
       "properties": {
         "@id": "way/375921314",
-        "cycleway_r": null,
-        "highway": "secondary",
-        "name": "Woodvale Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
-        "ref": "B39",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "secondary",
+        "maxspeed": "30 mph",
+        "name": "Woodvale Road",
+        "ref": "B39"
       },
       "geometry": {
         "type": "LineString",
@@ -4796,28 +3713,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375921315",
       "properties": {
         "@id": "way/375921315",
-        "cycleway_r": null,
-        "highway": "secondary",
-        "name": "Shankill Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": "30 mph",
-        "ref": "B39",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "secondary",
+        "maxspeed": "30 mph",
+        "name": "Shankill Road",
+        "ref": "B39"
       },
       "geometry": {
         "type": "LineString",
@@ -4855,28 +3758,15 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375921321",
       "properties": {
         "@id": "way/375921321",
-        "cycleway_r": "share_busway",
+        "cycleway:left": "lane",
+        "cycleway:right": "share_busway",
         "highway": "primary",
-        "name": "Castlereagh Road",
-        "oneway": null,
-        "cycleway_l": "lane",
         "maxspeed": "30",
-        "ref": "A23",
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Castlereagh Road",
+        "ref": "A23"
       },
       "geometry": {
         "type": "LineString",
@@ -4990,28 +3880,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/375921322",
       "properties": {
         "@id": "way/375921322",
-        "cycleway_r": null,
+        "cycleway": "lane",
         "highway": "secondary",
         "name": "Beersbridge Road",
         "oneway": "no",
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "B505",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "ref": "B505"
       },
       "geometry": {
         "type": "LineString",
@@ -5089,28 +3965,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/376266531",
       "properties": {
         "@id": "way/376266531",
-        "cycleway_r": "lane",
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Cregagh Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
         "maxspeed": "30 mph",
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Cregagh Road"
       },
       "geometry": {
         "type": "LineString",
@@ -5132,28 +3994,14 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/376266532",
       "properties": {
         "@id": "way/376266532",
-        "cycleway_r": "lane",
+        "cycleway:left": "share_busway",
+        "cycleway:right": "lane",
         "highway": "tertiary",
-        "name": "Cregagh Road",
-        "oneway": null,
-        "cycleway_l": "share_busway",
         "maxspeed": "30 mph",
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "name": "Cregagh Road"
       },
       "geometry": {
         "type": "LineString",
@@ -5175,28 +4023,12 @@ var onshare =
     },
     {
       "type": "Feature",
+      "id": "way/376266533",
       "properties": {
         "@id": "way/376266533",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Cregagh Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "tertiary",
+        "name": "Cregagh Road"
       },
       "geometry": {
         "type": "LineString",
@@ -5236,601 +4068,128 @@ var onshare =
         ]
       }
     },
-    {
+	{
       "type": "Feature",
+      "id": "way/26336236",
       "properties": {
-        "@id": "way/377441585",
-        "cycleway_r": "lane",
-        "highway": "tertiary",
-        "name": "Annadale Embankment",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": null,
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9290491,
-            54.5734072
-          ],
-          [
-            -5.9291157,
-            54.5734998
-          ],
-          [
-            -5.9296259,
-            54.5743745
-          ],
-          [
-            -5.9297862,
-            54.5746428
-          ],
-          [
-            -5.9298575,
-            54.5747698
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/377441586",
-        "cycleway_r": null,
-        "highway": "tertiary",
-        "name": "Annadale Embankment",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
+        "@id": "way/26336236",
         "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
+        "highway": "tertiary",
+        "name": "Stranmillis Road",
+        "segregated": "no",
+		"layertype": "onshare"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.9262288,
-            54.5711177
+            -5.9470375,
+            54.5699931
           ],
           [
-            -5.9265783,
-            54.5713935
+            -5.9466618,
+            54.5700025
           ],
           [
-            -5.9272812,
-            54.5719422
+            -5.946286,
+            54.5699982
           ],
           [
-            -5.9276795,
-            54.5722212
+            -5.9459346,
+            54.5699358
           ],
           [
-            -5.9285716,
-            54.572883
+            -5.9455924,
+            54.5698669
           ],
           [
-            -5.9288333,
-            54.5731468
+            -5.9454758,
+            54.5698445
           ],
           [
-            -5.9290491,
-            54.5734072
+            -5.9451017,
+            54.5697727
+          ],
+          [
+            -5.94463,
+            54.5696886
+          ],
+          [
+            -5.9443986,
+            54.5696597
+          ],
+          [
+            -5.944005,
+            54.5696076
+          ],
+          [
+            -5.9438154,
+            54.5695884
+          ],
+          [
+            -5.9436462,
+            54.5695861
           ]
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "way/381704815",
       "properties": {
-        "@id": "way/379970781",
-        "cycleway_r": null,
-        "highway": "unclassified",
-        "name": "Cupar Way",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": null,
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": null,
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9584392,
-            54.6016392
-          ],
-          [
-            -5.9580362,
-            54.6014972
-          ],
-          [
-            -5.9573606,
-            54.6012604
-          ],
-          [
-            -5.9560849,
-            54.6008573
-          ],
-          [
-            -5.9556123,
-            54.6007061
-          ],
-          [
-            -5.9552034,
-            54.600597
-          ],
-          [
-            -5.9549483,
-            54.6005651
-          ],
-          [
-            -5.9545946,
-            54.6005281
-          ],
-          [
-            -5.9543742,
-            54.6005163
-          ],
-          [
-            -5.9540756,
-            54.6005147
-          ],
-          [
-            -5.9533985,
-            54.6005432
-          ],
-          [
-            -5.9529187,
-            54.6005718
-          ],
-          [
-            -5.9522294,
-            54.6005731
-          ],
-          [
-            -5.9518839,
-            54.6005547
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/380546800",
-        "cycleway_r": null,
-        "highway": "secondary",
-        "name": "Ravenhill Road",
-        "oneway": null,
-        "cycleway_l": null,
-        "maxspeed": null,
-        "ref": "B506",
-        "cycleway": "lane",
-        "alt_name": null,
-        "bicycle": null,
-        "lanes": null,
-        "nat_ref": null,
-        "ncn_ref": null,
-        "lit": null,
-        "access": null,
-        "motor_vehi": null,
-        "surface": null,
-        "sidewalk": null,
-        "segregated": "no",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9105016,
-            54.5919169
-          ],
-          [
-            -5.910637,
-            54.5922309
-          ],
-          [
-            -5.9106916,
-            54.5923384
-          ],
-          [
-            -5.9107822,
-            54.5925167
-          ],
-          [
-            -5.9108585,
-            54.5926693
-          ],
-          [
-            -5.91111,
-            54.5931571
-          ],
-          [
-            -5.9112361,
-            54.5934123
-          ],
-          [
-            -5.9115022,
-            54.5939508
-          ],
-          [
-            -5.9117169,
-            54.5944186
-          ],
-          [
-            -5.9117446,
-            54.5945589
-          ],
-          [
-            -5.9117333,
-            54.5947003
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/44960203",
-      "properties": {
-        "@id": "way/44960203",
-        "bridge": "yes",
+        "@id": "way/381704815",
         "cycleway": "lane",
         "highway": "tertiary",
-        "layer": "1",
-        "name": "Donegall Road",
+        "name": "Stranmillis Road",
         "segregated": "no",
-        "layertype": "onshare"
+		"layertype": "onshare"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.9482601,
-            54.5888977
+            -5.9411633,
+            54.569761
           ],
           [
-            -5.9487949,
-            54.588948
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/45096322",
-      "properties": {
-        "@id": "way/45096322",
-        "cycleway:right": "opposite_lane",
-        "highway": "unclassified",
-        "name": "Apsley Street",
-        "oneway": "yes",
-        "oneway:bicycle": "no",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9286224,
-            54.5927243
+            -5.9403211,
+            54.5698224
           ],
           [
-            -5.9288815,
-            54.592278
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/229214472",
-      "properties": {
-        "@id": "way/229214472",
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "cycleway:right": "lane",
-        "highway": "trunk",
-        "maxspeed": "20 mph",
-        "motor_vehicle": "yes",
-        "name": "Donegall Square South",
-        "oneway": "yes",
-        "ref": "A1",
-        "surface": "asphalt",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9310835,
-            54.5959466
+            -5.9397703,
+            54.569864
           ],
           [
-            -5.9313655,
-            54.5959385
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/380780145",
-      "properties": {
-        "@id": "way/380780145",
-        "cycleway:right": "opposite_lane",
-        "highway": "unclassified",
-        "name": "Linenhall Street",
-        "segregated": "no",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9299015,
-            54.595464
+            -5.939285,
+            54.5699323
           ],
           [
-            -5.9299545,
-            54.5959961
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/380780147",
-      "properties": {
-        "@id": "way/380780147",
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "cycleway:left": "lane",
-        "highway": "trunk",
-        "maxspeed": "20 mph",
-        "name": "Donegall Square South",
-        "oneway": "yes",
-        "ref": "A1",
-        "surface": "asphalt",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9299545,
-            54.5959961
+            -5.9387036,
+            54.5700531
           ],
           [
-            -5.9310835,
-            54.5959466
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/380780148",
-      "properties": {
-        "@id": "way/380780148",
-        "cycleway": "lane",
-        "highway": "unclassified",
-        "name": "Balmoral Road",
-        "oneway": "yes",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9659048,
-            54.5748197
+            -5.9382354,
+            54.570172
           ],
           [
-            -5.9664053,
-            54.5750352
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/380780149",
-      "properties": {
-        "@id": "way/380780149",
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "name": "Donegall Road",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9495002,
-            54.5889473
+            -5.9375999,
+            54.5703517
           ],
           [
-            -5.950464,
-            54.5889186
+            -5.9368726,
+            54.57055
           ],
           [
-            -5.9511412,
-            54.588904
+            -5.9363562,
+            54.5707064
           ],
           [
-            -5.9517217,
-            54.5888858
+            -5.9358775,
+            54.5708357
           ],
           [
-            -5.9529563,
-            54.5888554
-          ],
-          [
-            -5.9530821,
-            54.588852
-          ],
-          [
-            -5.9540967,
-            54.5888289
-          ],
-          [
-            -5.9547119,
-            54.5888153
-          ],
-          [
-            -5.9553238,
-            54.5888037
-          ],
-          [
-            -5.9558817,
-            54.5887888
-          ],
-          [
-            -5.9560016,
-            54.5887854
-          ],
-          [
-            -5.9560833,
-            54.5887833
-          ],
-          [
-            -5.956211,
-            54.5887645
-          ],
-          [
-            -5.9564956,
-            54.5886937
-          ],
-          [
-            -5.956917,
-            54.5885767
-          ],
-          [
-            -5.9570047,
-            54.5885517
-          ],
-          [
-            -5.9571733,
-            54.5885046
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/380780150",
-      "properties": {
-        "@id": "way/380780150",
-        "cycleway": "lane",
-        "highway": "tertiary",
-        "name": "Donegall Road",
-        "segregated": "no",
-        "layertype": "onshare"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9449624,
-            54.5886617
-          ],
-          [
-            -5.9453424,
-            54.5886609
-          ],
-          [
-            -5.9455337,
-            54.5886605
-          ],
-          [
-            -5.9458318,
-            54.5886659
-          ],
-          [
-            -5.9460516,
-            54.5886767
-          ],
-          [
-            -5.9463412,
-            54.5886971
-          ],
-          [
-            -5.9465101,
-            54.588709
-          ],
-          [
-            -5.9467235,
-            54.5887333
-          ],
-          [
-            -5.9467813,
-            54.5887397
-          ],
-          [
-            -5.9468807,
-            54.5887507
-          ],
-          [
-            -5.9471752,
-            54.5887832
-          ],
-          [
-            -5.9474225,
-            54.5888133
-          ],
-          [
-            -5.9475387,
-            54.5888274
-          ],
-          [
-            -5.9479559,
-            54.5888752
-          ],
-          [
-            -5.9482601,
-            54.5888977
+            -5.9355995,
+            54.5709292
           ]
         ]
       }
