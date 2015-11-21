@@ -2179,9 +2179,9 @@ var onshare =
     },
     {
       "type": "Feature",
-      "id": "way/301778252",
+      "id": "way/381454746",
       "properties": {
-        "@id": "way/301778252",
+        "@id": "way/381454746",
         "cycleway:left": "lane",
         "highway": "trunk",
         "name": "Oxford Street",
@@ -2191,10 +2191,6 @@ var onshare =
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -5.9217135,
-            54.5994242
-          ],
           [
             -5.9215241,
             54.5976279
@@ -2206,43 +2202,6 @@ var onshare =
           [
             -5.9213345,
             54.5964805
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/301778254",
-      "properties": {
-        "@id": "way/301778254",
-        "cycleway:left": "lane",
-        "highway": "trunk",
-        "name": "Oxford Street",
-        "oneway": "yes",
-        "ref": "A20"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9213345,
-            54.5964805
-          ],
-          [
-            -5.9213117,
-            54.5963422
-          ],
-          [
-            -5.9212671,
-            54.5958691
-          ],
-          [
-            -5.9213376,
-            54.5956127
-          ],
-          [
-            -5.9213825,
-            54.5954494
           ]
         ]
       }
