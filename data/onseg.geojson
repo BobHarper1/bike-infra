@@ -1,22 +1,20 @@
-var onseg=
+var onseg =
 {
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2016-01-07T14:23:02Z",
+  "timestamp": "2015-11-03T00:13:02Z",
   "features": [
     {
       "type": "Feature",
       "id": "way/17281138",
       "properties": {
-		"layertype": "onseg",
         "@id": "way/17281138",
         "cycleway": "lane",
-        "highway": "unclassified",
-        "maxspeed": "30 mph",
+        "highway": "tertiary",
         "name": "Ormeau Embankment",
         "segregated": "yes",
-        "surface": "asphalt"
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
@@ -34,393 +32,16 @@ var onseg=
             54.5825704
           ],
           [
-            -5.9206155,
-            54.5826551
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/38548691",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/38548691",
-        "cycleway:left": "lane",
-        "highway": "trunk",
-        "maxspeed": "40 mph",
-        "name": "Upper Knockbreda Road",
-        "nat_ref": "T14",
-        "oneway": "yes",
-        "ref": "A55",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8731898,
-            54.5780003
+            -5.9206222,
+            54.5826565
           ],
           [
-            -5.87356,
-            54.5778147
+            -5.9201792,
+            54.5828093
           ],
           [
-            -5.8754935,
-            54.5769507
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/148484389",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/148484389",
-        "bicycle": "yes",
-        "cycleway:left": "lane",
-        "highway": "trunk_link",
-        "layer": "-1",
-        "oneway": "yes",
-        "segregated": "yes",
-        "tunnel": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8662176,
-            54.6169038
-          ],
-          [
-            -5.8668004,
-            54.6160587
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/148484392",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/148484392",
-        "bicycle": "yes",
-        "cycleway:left": "lane",
-        "highway": "trunk_link",
-        "oneway": "yes",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8660324,
-            54.6170679
-          ],
-          [
-            -5.8660898,
-            54.6170412
-          ],
-          [
-            -5.8661408,
-            54.6169931
-          ],
-          [
-            -5.8662176,
-            54.6169038
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/148484447",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/148484447",
-        "bicycle": "yes",
-        "cycleway:left": "lane",
-        "highway": "trunk_link",
-        "oneway": "yes",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8668004,
-            54.6160587
-          ],
-          [
-            -5.8669969,
-            54.6158842
-          ],
-          [
-            -5.867226,
-            54.6157165
-          ],
-          [
-            -5.8675418,
-            54.615514
-          ],
-          [
-            -5.8678469,
-            54.615321
-          ],
-          [
-            -5.8681846,
-            54.615081
-          ],
-          [
-            -5.868604,
-            54.6147289
-          ],
-          [
-            -5.8688717,
-            54.6144751
-          ],
-          [
-            -5.8692978,
-            54.6140855
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/331309000",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/331309000",
-        "cycleway": "lane",
-        "highway": "unclassified",
-        "name": "Queens Road",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.8955695,
-            54.6158076
-          ],
-          [
-            -5.8957817,
-            54.6156403
-          ],
-          [
-            -5.8959413,
-            54.6155487
-          ],
-          [
-            -5.8961229,
-            54.6154875
-          ],
-          [
-            -5.8978538,
-            54.6148856
-          ],
-          [
-            -5.8985713,
-            54.6146361
-          ],
-          [
-            -5.8987438,
-            54.6145268
-          ],
-          [
-            -5.899168,
-            54.6142303
-          ],
-          [
-            -5.900087,
-            54.6135788
-          ],
-          [
-            -5.9006549,
-            54.6131702
-          ],
-          [
-            -5.9019595,
-            54.6122317
-          ],
-          [
-            -5.9028048,
-            54.6116381
-          ],
-          [
-            -5.9047091,
-            54.6102733
-          ],
-          [
-            -5.9060642,
-            54.6093203
-          ],
-          [
-            -5.9079149,
-            54.6079817
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/376266736",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/376266736",
-        "cycleway": "lane",
-        "highway": "unclassified",
-        "name": "Queens Road",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9079149,
-            54.6079817
-          ],
-          [
-            -5.9090606,
-            54.6071936
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/380860676",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/380860676",
-        "cycleway:right": "lane",
-        "highway": "unclassified",
-        "maxspeed": "20 mph",
-        "name": "Castle Street",
-        "oneway": "yes",
-        "oneway:bicycle": "-1",
-        "segregated": "yes"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9330533,
-            54.5992127
-          ],
-          [
-            -5.9333016,
-            54.5992251
-          ],
-          [
-            -5.9335972,
-            54.5992354
-          ],
-          [
-            -5.9338887,
-            54.5992412
-          ],
-          [
-            -5.9340174,
-            54.5992505
-          ],
-          [
-            -5.9346638,
-            54.5992816
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/390052617",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/390052617",
-        "cycleway": "lane",
-        "highway": "unclassified",
-        "maxspeed": "30 mph",
-        "name": "Ormeau Embankment",
-        "segregated": "yes",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9127195,
-            54.590538
-          ],
-          [
-            -5.9125417,
-            54.5904802
-          ],
-          [
-            -5.912328,
-            54.590426
-          ],
-          [
-            -5.9121226,
-            54.5903812
-          ],
-          [
-            -5.9118151,
-            54.5903316
-          ],
-          [
-            -5.9114896,
-            54.5903029
-          ],
-          [
-            -5.9110502,
-            54.5903037
-          ],
-          [
-            -5.9105767,
-            54.5903378
-          ],
-          [
-            -5.9103535,
-            54.5903376
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/390052618",
-      "properties": {
-		"layertype": "onseg",
-        "@id": "way/390052618",
-        "cycleway": "lane",
-        "highway": "unclassified",
-        "maxspeed": "40 mph",
-        "name": "Ormeau Embankment",
-        "segregated": "yes",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9206155,
-            54.5826551
-          ],
-          [
-            -5.9203646,
-            54.5827302
-          ],
-          [
-            -5.9201531,
-            54.5828086
-          ],
-          [
-            -5.9198797,
-            54.5829328
+            -5.9198848,
+            54.5829384
           ],
           [
             -5.9196236,
@@ -619,112 +240,289 @@ var onseg=
             54.5906133
           ],
           [
-            -5.9128013,
-            54.5905674
+            -5.9127241,
+            54.5905414
           ],
           [
-            -5.9127195,
-            54.590538
+            -5.9125417,
+            54.5904802
+          ],
+          [
+            -5.912328,
+            54.590426
+          ],
+          [
+            -5.9121226,
+            54.5903812
+          ],
+          [
+            -5.9118151,
+            54.5903316
+          ],
+          [
+            -5.9114896,
+            54.5903029
+          ],
+          [
+            -5.9110502,
+            54.5903037
+          ],
+          [
+            -5.9105779,
+            54.5903337
+          ],
+          [
+            -5.9103535,
+            54.5903376
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "way/390056278",
+      "id": "way/331309000",
       "properties": {
-		"layertype": "onseg",
-        "@id": "way/390056278",
-        "cycleway:left": "lane",
-        "highway": "trunk",
-        "maxspeed": "40 mph",
-        "name": "Upper Knockbreda Road",
-        "nat_ref": "T14",
-        "oneway": "yes",
-        "ref": "A55",
-        "segregated": "yes"
+        "@id": "way/331309000",
+        "cycleway": "lane",
+        "highway": "unclassified",
+        "name": "Queens Road",
+        "segregated": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.8773248,
-            54.5761419
+            -5.8955695,
+            54.6158076
           ],
           [
-            -5.8783058,
-            54.5757197
+            -5.8957817,
+            54.6156403
           ],
           [
-            -5.8792816,
-            54.5752986
+            -5.8959413,
+            54.6155487
           ],
           [
-            -5.8801734,
-            54.5749074
+            -5.8961229,
+            54.6154875
+          ],
+          [
+            -5.8978538,
+            54.6148856
+          ],
+          [
+            -5.8985713,
+            54.6146361
+          ],
+          [
+            -5.8987438,
+            54.6145268
+          ],
+          [
+            -5.899168,
+            54.6142303
+          ],
+          [
+            -5.900087,
+            54.6135788
+          ],
+          [
+            -5.9019595,
+            54.6122317
+          ],
+          [
+            -5.9028048,
+            54.6116381
+          ],
+          [
+            -5.9047091,
+            54.6102733
+          ],
+          [
+            -5.9060642,
+            54.6093203
+          ],
+          [
+            -5.9079149,
+            54.6079817
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "way/390056280",
+      "id": "way/376266736",
       "properties": {
-		"layertype": "onseg",
-        "@id": "way/390056280",
-        "cycleway:left": "lane",
-        "highway": "trunk",
-        "maxspeed": "40 mph",
-        "name": "Upper Knockbreda Road",
-        "nat_ref": "T14",
-        "oneway": "yes",
-        "ref": "A55",
-        "segregated": "yes"
+        "@id": "way/376266736",
+        "cycleway": "lane",
+        "highway": "unclassified",
+        "name": "Queens Road",
+        "segregated": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.8807709,
-            54.5746468
+            -5.9079149,
+            54.6079817
           ],
           [
-            -5.8812055,
-            54.5744534
+            -5.9090606,
+            54.6071936
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "way/390056283",
+      "id": "way/148484389",
       "properties": {
-		"layertype": "onseg",
-        "@id": "way/390056283",
-        "bicycle": "designated",
+        "@id": "way/148484389",
+        "bicycle": "yes",
         "cycleway:left": "lane",
-        "highway": "trunk",
-        "maxspeed": "40 mph",
-        "name": "Upper Knockbreda Road",
-        "nat_ref": "T14",
+        "highway": "trunk_link",
+        "layer": "-1",
         "oneway": "yes",
-        "ref": "A55",
-        "segregated": "yes"
+        "segregated": "yes",
+        "tunnel": "yes",
+        "layertype": "onseg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.9031111,
-            54.5659339
+            -5.8661892,
+            54.6169216
           ],
           [
-            -5.9038,
-            54.5655053
+            -5.8668004,
+            54.6160587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148484392",
+      "properties": {
+        "@id": "way/148484392",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "oneway": "yes",
+        "segregated": "yes",
+        "layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8660844,
+            54.6171255
           ],
           [
-            -5.9045297,
-            54.565045
+            -5.8661892,
+            54.6169216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/148484447",
+      "properties": {
+        "@id": "way/148484447",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "highway": "trunk_link",
+        "oneway": "yes",
+        "segregated": "yes",
+        "layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.8668004,
+            54.6160587
+          ],
+          [
+            -5.8670041,
+            54.6158901
+          ],
+          [
+            -5.867226,
+            54.6157165
+          ],
+          [
+            -5.8675383,
+            54.6155275
+          ],
+          [
+            -5.8678403,
+            54.6153393
+          ],
+          [
+            -5.8681846,
+            54.615081
+          ],
+          [
+            -5.868604,
+            54.6147289
+          ],
+          [
+            -5.8688717,
+            54.6144751
+          ],
+          [
+            -5.8692978,
+            54.6140855
+          ]
+        ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "id": "way/380860676",
+      "properties": {
+        "@id": "way/380860676",
+        "cycleway:right": "lane",
+        "highway": "unclassified",
+        "maxspeed": "20 mph",
+        "name": "Castle Street",
+        "oneway:bicycle": "yes",
+        "segregated": "yes",
+		"layertype": "onseg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9330533,
+            54.5992127
+          ],
+          [
+            -5.9333016,
+            54.5992251
+          ],
+          [
+            -5.9335972,
+            54.5992354
+          ],
+          [
+            -5.9338887,
+            54.5992412
+          ],
+          [
+            -5.9340174,
+            54.5992505
+          ],
+          [
+            -5.9346638,
+            54.5992816
           ]
         ]
       }
