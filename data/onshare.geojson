@@ -3667,20 +3667,38 @@ var onshare =
         ]
       }
     },
-	{
+    {
       "type": "Feature",
-      "id": "way/381454746",
       "properties": {
-        "@id": "way/381454746",
-        "cycleway:left": "lane",
+        "@id": "way/301778252",
+        "cycleway_r": null,
         "highway": "trunk",
         "name": "Oxford Street",
         "oneway": "yes",
-        "ref": "A20"
+        "cycleway_l": "lane",
+        "maxspeed": null,
+        "ref": "A20",
+        "cycleway": null,
+        "alt_name": null,
+        "bicycle": null,
+        "lanes": null,
+        "nat_ref": null,
+        "ncn_ref": null,
+        "lit": null,
+        "access": null,
+        "motor_vehi": null,
+        "surface": null,
+        "sidewalk": null,
+        "segregated": null,
+        "layertype": "onshare"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            -5.9217135,
+            54.5994242
+          ],
           [
             -5.9215241,
             54.5976279
@@ -3692,6 +3710,57 @@ var onshare =
           [
             -5.9213345,
             54.5964805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/301778254",
+        "cycleway_r": null,
+        "highway": "trunk",
+        "name": "Oxford Street",
+        "oneway": "yes",
+        "cycleway_l": "lane",
+        "maxspeed": null,
+        "ref": "A20",
+        "cycleway": null,
+        "alt_name": null,
+        "bicycle": null,
+        "lanes": null,
+        "nat_ref": null,
+        "ncn_ref": null,
+        "lit": null,
+        "access": null,
+        "motor_vehi": null,
+        "surface": null,
+        "sidewalk": null,
+        "segregated": null,
+        "layertype": "onshare"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9213345,
+            54.5964805
+          ],
+          [
+            -5.9213117,
+            54.5963422
+          ],
+          [
+            -5.9212671,
+            54.5958691
+          ],
+          [
+            -5.9213376,
+            54.5956127
+          ],
+          [
+            -5.9213825,
+            54.5954494
           ]
         ]
       }
