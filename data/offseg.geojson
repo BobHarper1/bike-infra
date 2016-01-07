@@ -1,41 +1,80 @@
 var offseg=
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-01-07T15:28:02Z",
   "features": [
     {
       "type": "Feature",
+      "id": "way/18561070",
       "properties": {
+		"layertype": "offseg",
+        "@id": "way/18561070",
+        "bicycle": "designated",
+        "cycleway:left": "track",
+        "highway": "unclassified",
+        "motor_vehicle": "yes",
+        "name": "Apollo Road",
+        "segregated": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.9612552,
+            54.5812917
+          ],
+          [
+            -5.9608356,
+            54.581189
+          ],
+          [
+            -5.9605166,
+            54.5811048
+          ],
+          [
+            -5.9599286,
+            54.5809415
+          ],
+          [
+            -5.958839,
+            54.5806516
+          ],
+          [
+            -5.9583614,
+            54.5805246
+          ],
+          [
+            -5.95595,
+            54.5799053
+          ],
+          [
+            -5.9555946,
+            54.579775
+          ],
+          [
+            -5.9555957,
+            54.5796615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/38548678",
+      "properties": {
+		"layertype": "offseg",
         "@id": "way/38548678",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -65,32 +104,19 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/38548681",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/38548681",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -128,32 +154,20 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/41665174",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/41665174",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
+        "lanes": "2",
         "maxspeed": "40 mph",
         "name": "Knock Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": "2",
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -271,32 +285,16 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/59283989",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/59283989",
         "bicycle": "designated",
-        "cycleway_l": null,
-        "highway": "path",
-        "maxspeed": null,
-        "name": "NCN 9",
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
         "foot": "designated",
+        "highway": "path",
+        "name": "NCN 9",
         "ncn_ref": "9",
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -416,6 +414,7 @@ var offseg=
       "type": "Feature",
       "id": "way/75405824",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/75405824",
         "FIXME": "Needs to be adjusted to fit the new, more accurate geometry of the road alongside",
         "bicycle": "designated",
@@ -423,8 +422,7 @@ var offseg=
         "highway": "path",
         "name": "NCN 93",
         "ncn_ref": "93",
-        "segregated": "yes",
-		"layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -494,32 +492,19 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/134904228",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/134904228",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "50 mph",
         "name": "Sydenham Bypass",
         "nat_ref": "T1",
         "oneway": "yes",
         "ref": "A2",
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -541,32 +526,17 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/151558598",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/151558598",
-        "bicycle": null,
-        "cycleway_l": null,
-        "highway": "unclassified",
-        "maxspeed": null,
-        "name": "Sydenham Road",
-        "nat_ref": null,
-        "oneway": "no",
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
+        "cycleway:right": "track",
         "foot": "designated",
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": "track",
-        "surface": "asphalt",
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "highway": "unclassified",
+        "name": "Sydenham Road",
+        "oneway": "no",
+        "segregated": "yes",
+        "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
@@ -608,32 +578,16 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/193651234",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/193651234",
         "bicycle": "designated",
-        "cycleway_l": null,
-        "highway": "path",
-        "maxspeed": null,
-        "name": "NCN 9",
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
         "foot": "designated",
+        "highway": "path",
+        "name": "NCN 9",
         "ncn_ref": "9",
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -675,32 +629,17 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/233586518",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/233586518",
-        "bicycle": "designated",
-        "cycleway_l": null,
-        "highway": "path",
-        "maxspeed": null,
-        "name": "NCN 93",
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": "designated",
-        "ncn_ref": "93",
         "FIXME": "Needs to be adjusted to fit the new, more accurate geometry of the road alongside",
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "name": "NCN 93",
+        "ncn_ref": "93",
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -934,32 +873,18 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/297027695",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/297027695",
-        "bicycle": "yes",
-        "cycleway_l": null,
-        "highway": "cycleway",
-        "maxspeed": null,
-        "name": null,
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": "asphalt",
         "access": "no",
+        "bicycle": "yes",
+        "highway": "cycleway",
         "horse": "no",
-        "motor_vehi": "no",
-        "width": "2",
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "motor_vehicle": "no",
+        "segregated": "yes",
+        "surface": "asphalt",
+        "width": "2"
       },
       "geometry": {
         "type": "LineString",
@@ -985,48 +910,23 @@ var offseg=
             54.5799001
           ],
           [
-            -5.9171786,
-            54.5798413
-          ],
-          [
-            -5.9152152,
-            54.579804
-          ],
-          [
-            -5.9126205,
-            54.5797575
+            -5.91608,
+            54.5798103
           ]
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "way/297648644",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/297648644",
         "bicycle": "designated",
-        "cycleway_l": null,
-        "highway": "path",
-        "maxspeed": null,
-        "name": null,
-        "nat_ref": null,
-        "oneway": null,
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
         "foot": "designated",
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
+        "highway": "path",
         "lit": "yes",
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1072,32 +972,19 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/300401876",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/300401876",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1123,10 +1010,12 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/306460355",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/306460355",
         "bicycle": "yes",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Hawthornden Way",
@@ -1134,21 +1023,7 @@ var offseg=
         "oneway": "yes",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": "yahoo",
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "source": "yahoo"
       },
       "geometry": {
         "type": "LineString",
@@ -1278,32 +1153,21 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/306460358",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/306460358",
         "bicycle": "yes",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
+        "lanes": "2",
         "maxspeed": "50 mph",
         "name": "Park Way",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": "2",
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": "yahoo",
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "source": "yahoo"
       },
       "geometry": {
         "type": "LineString",
@@ -1481,32 +1345,21 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/306460359",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/306460359",
         "bicycle": "yes",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
+        "lanes": "2",
         "maxspeed": "50 mph",
         "name": "Park Way",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": "2",
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": "yahoo",
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "source": "yahoo"
       },
       "geometry": {
         "type": "LineString",
@@ -1692,10 +1545,12 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/330285946",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/330285946",
         "bicycle": "yes",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Hawthornden Way",
@@ -1703,21 +1558,7 @@ var offseg=
         "oneway": "yes",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": "yahoo",
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "source": "yahoo"
       },
       "geometry": {
         "type": "LineString",
@@ -1827,32 +1668,20 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/366053139",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/366053139",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
+        "lanes": "2",
         "maxspeed": "40 mph",
         "name": "Knock Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": "2",
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -1946,39 +1775,25 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/374528661",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/374528661",
-        "bicycle": "yes",
-        "cycleway_l": null,
-        "highway": "cycleway",
-        "maxspeed": null,
-        "name": null,
-        "nat_ref": null,
-        "oneway": "yes",
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
         "access": "no",
+        "bicycle": "yes",
+        "highway": "cycleway",
         "horse": "no",
-        "motor_vehi": "no",
-        "width": "1",
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "motor_vehicle": "no",
+        "oneway": "yes",
+        "segregated": "yes",
+        "width": "1"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.9239552,
-            54.5975185
+            -5.9239627,
+            54.5975291
           ],
           [
             -5.9238772,
@@ -1989,32 +1804,20 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/374528663",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/374528663",
-        "bicycle": "yes",
-        "cycleway_l": null,
-        "highway": "cycleway",
-        "maxspeed": null,
-        "name": "Upper Arthur Street",
-        "nat_ref": null,
-        "oneway": "no",
-        "ref": null,
-        "segregated": "yes",
-        "lanes": null,
-        "foot": "no",
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
         "access": "no",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "cycleway",
         "horse": "no",
-        "motor_vehi": "no",
-        "width": "1",
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "motor_vehicle": "no",
+        "name": "Upper Arthur Street",
+        "oneway": "no",
+        "segregated": "yes",
+        "width": "1"
       },
       "geometry": {
         "type": "LineString",
@@ -2036,32 +1839,20 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/374712135",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/374712135",
-        "bicycle": null,
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "50 mph",
         "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": "no",
-        "sidewalk": "left",
-        "layertype": "offseg"
+        "sidewalk": "left"
       },
       "geometry": {
         "type": "LineString",
@@ -2151,10 +1942,12 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/374712139",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/374712139",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Upper Knockbreda Road",
@@ -2162,21 +1955,7 @@ var offseg=
         "oneway": "yes",
         "ref": "A55",
         "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": "left",
-        "layertype": "offseg"
+        "sidewalk": "left"
       },
       "geometry": {
         "type": "LineString",
@@ -2202,32 +1981,19 @@ var offseg=
     },
     {
       "type": "Feature",
+      "id": "way/375501370",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/375501370",
         "bicycle": "designated",
-        "cycleway_l": "track",
+        "cycleway:left": "track",
         "highway": "trunk",
         "maxspeed": "40 mph",
         "name": "Upper Knockbreda Road",
         "nat_ref": "T14",
         "oneway": "yes",
         "ref": "A55",
-        "segregated": "yes",
-        "lanes": null,
-        "foot": null,
-        "ncn_ref": null,
-        "FIXME": null,
-        "cycleway_r": null,
-        "surface": null,
-        "access": null,
-        "horse": null,
-        "motor_vehi": null,
-        "width": null,
-        "lit": null,
-        "source": null,
-        "oneway_bic": null,
-        "sidewalk": null,
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
@@ -2263,10 +2029,11 @@ var offseg=
         ]
       }
     },
-	{
+    {
       "type": "Feature",
       "id": "way/380780151",
       "properties": {
+		"layertype": "offseg",
         "@id": "way/380780151",
         "cycleway:left": "track",
         "highway": "trunk",
@@ -2275,15 +2042,14 @@ var offseg=
         "oneway": "yes",
         "oneway:bicycle": "no",
         "ref": "A2",
-        "segregated": "yes",
-        "layertype": "offseg"
+        "segregated": "yes"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -5.9219073,
-            54.5996005
+            -5.9219694,
+            54.5995977
           ],
           [
             -5.9229939,
@@ -2304,61 +2070,6 @@ var offseg=
           [
             -5.9241529,
             54.5995135
-          ]
-        ]
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "way/18561070",
-      "properties": {
-        "@id": "way/18561070",
-        "bicycle": "designated",
-        "cycleway:left": "track",
-        "highway": "unclassified",
-        "motor_vehicle": "yes",
-        "name": "Apollo Road",
-        "segregated": "yes",
-		"layertype": "offseg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -5.9612552,
-            54.5812917
-          ],
-          [
-            -5.9608356,
-            54.581189
-          ],
-          [
-            -5.9605166,
-            54.5811048
-          ],
-          [
-            -5.9599286,
-            54.5809415
-          ],
-          [
-            -5.958839,
-            54.5806516
-          ],
-          [
-            -5.9583614,
-            54.5805246
-          ],
-          [
-            -5.95595,
-            54.5799053
-          ],
-          [
-            -5.9555946,
-            54.579775
-          ],
-          [
-            -5.9555957,
-            54.5796615
           ]
         ]
       }
